@@ -1,6 +1,6 @@
 cask "teams-mute-helper" do
-  version "0.8.0"
-  sha256 "370325943511cb327970b1c57ec83ed9dc0644d71f0611ecbc9e01de2b3c9cd2"
+  version "0.8.1"
+  sha256 "38a43a5611a1e56e7549ae938bfbab92586f8a370a79988cc8d33e1bf2f50bf9"
 
   url "https://github.com/m-rk/ms-teams-mute-shortcut/releases/download/v#{version}/Teams-Mute-Helper-#{version}.zip"
   name "Teams Mute Helper"
