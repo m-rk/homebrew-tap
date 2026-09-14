@@ -13,7 +13,7 @@ cask "teams-mute-helper" do
 
   uninstall quit:   "io.github.m-rk.ms-teams-mute-helper",
             script: {
-              executable:   "Teams Mute Helper.app/Contents/MacOS/TeamsMuteHelper",
+              executable:   "#{appdir}/Teams Mute Helper.app/Contents/MacOS/TeamsMuteHelper",
               args:         ["--unregister-login-item"],
               must_succeed: false,
             }
